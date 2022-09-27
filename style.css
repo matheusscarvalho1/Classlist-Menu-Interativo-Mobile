@@ -1,0 +1,31 @@
+.menuMobile {
+    position: absolute; /*Flutua por cima de todos os outros itens*/
+    top: 0;
+    left: -100%;
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    color:white;
+    transition: all 700ms ease;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.menuMobile.aberto {
+    left:0%
+}
+
+.botaoMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.botaoMenu:hover{
+    font-weight: bold;
+    cursor:pointer;
+}
+ .menuMobile ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
