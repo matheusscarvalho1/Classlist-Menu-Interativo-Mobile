@@ -8,7 +8,7 @@ function abrirOuFecharMenu(){
     if(aberto === true){
         aberto = false
         menuMobile.classList.remove('aberto')
-        botaoMenu.innerHTML = '☰'
+        botaoMenu.innerHTML = 'Abrir Menu'
     }else if (aberto === false){
         aberto = true
         menuMobile.classList.add('aberto')
