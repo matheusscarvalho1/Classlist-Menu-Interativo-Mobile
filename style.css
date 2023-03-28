@@ -6,13 +6,23 @@
     height: 100vh;
     background-color: black;
     color:white;
-    transition: all 550ms ease;
-    font-family: 'Courier New', Courier, monospace;
+    transition: all 700ms ease;
+    font-family: Arial , Courier, monospace;
     
 }
 
+.menuMobile ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.menuMobile ul li a:hover {
+    font-weight: bold;
+    color: red;
+}
+
 .menuMobile.aberto {
-    left:0%
+    left: 0%;
 }
 
 .botaoMenu {
@@ -23,14 +33,12 @@
 
 .botaoMenu:hover{
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
 }
- .menuMobile ul li{
-    list-style: none;
-    margin-bottom: 10px;
-}
+
 
 li a {
     text-decoration: none;
     color: white;
 }
+
