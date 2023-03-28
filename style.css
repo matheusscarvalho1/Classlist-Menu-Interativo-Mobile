@@ -2,11 +2,11 @@
     position: absolute; /*Flutua por cima de todos os outros itens*/
     top: 0;
     left: -100%;
-    width: 200px;
+    width: 250px;
     height: 100vh;
     background-color: black;
     color:white;
-    transition: all 700ms ease;
+    transition: all 700ms ease-in-out;
     font-family: Arial , Courier, monospace;
     
 }
