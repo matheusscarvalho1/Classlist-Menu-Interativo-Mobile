@@ -1,4 +1,4 @@
-# classlist-menu-interativo-mobile
+# Classlist-Menu-Interativo-Mobile
 
 Nesse projeto foi desenvolvido um menu simples interativo mobile
 
